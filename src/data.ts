@@ -94,6 +94,42 @@ const benchmarkData: Benchmark[] = [
       isLegendary: true  // Special flag for the Turing Test
     },
     {
+      "name": "JMLE-2024",
+      "description": "A medical question-answering benchmark derived from the medical licensing exam conducted in 2024 in Japan. It evaluates medical knowledge and clinical reasoning skills typically tested near the end of medical school, covering a broad range of medical topics.",
+      "dateCreated": "2024-02-08",
+      "dateDefeated": "2024-11-06",
+      "modelDefeated": "O1",
+      "originalScore": "Medical Student Avg: ~85%",
+      "finalScore": "O1: 99.6%",
+      "category": "Healthcare",
+      "creators": "Usuyama et al.",
+      "organization": "Microsoft and OpenAI",
+      "links": {
+        "paper": "https://arxiv.org/abs/2411.03590"
+      },
+      "cause": "Saturation",
+      "causeDetails": "This exam was passed at near-perfect levels, surpassing the average human performance and making it insufficient as a frontier marker for AI medical competence. Note: The test was administered in 2024, which was after the stated knowledge cutoff date for model 'o1'.",
+      "isLegendary": false
+    },
+    {
+      "name": "MedQA",
+      "description": "A medical question-answering benchmark derived from the USMLE (United States Medical Licensing Examination). It tests knowledge-based reasoning using professional medical exam questions, serving as a measure of advanced medical question-answering capabilities in AI.",
+      "dateCreated": "2020-09-28",
+      "dateDefeated": "2024-11-06",
+      "modelDefeated": "O1",
+      "originalScore": "Human Expert: ~87%",
+      "finalScore": "O1: 96.0%",
+      "category": "Healthcare",
+      "creators": "Jin et al.",
+      "organization": "MIT",
+      "links": {
+        "paper": "https://arxiv.org/abs/2411.03590"
+      },
+      "cause": "Saturation",
+      "causeDetails": "Performance surpasses that of human experts, making it less useful as a frontier benchmark for medical question-answering.",
+      "isLegendary": false
+    },
+    {
       name: "ARC-AGI",
       description: "Abstract reasoning challenge consisting of visual pattern completion tasks. Each task presents a sequence of abstract visual patterns and requires selecting the correct completion. Created by François Chollet as part of a broader investigation into measuring intelligence.",
       dateCreated: "2019-11",
