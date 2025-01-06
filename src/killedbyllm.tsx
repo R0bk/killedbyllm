@@ -330,7 +330,7 @@ const KilledByLLM = () => {
             </h2>
             <p className="text-gray-300 leading-relaxed">
               For KilledByLLM <i>"Saturation"</i> means a benchmark can no longer measure the frontier.
-              While these benchmarks are still increadibly useful, valuable tools — they are no longer able to meaningfully contribute to the question of <i>"Can AI do X?"</i>
+              While these benchmarks are still incredibly useful, valuable tools — they are no longer able to meaningfully contribute to the question of <i>"Can AI do X?"</i>
             </p>
           </div>
 
