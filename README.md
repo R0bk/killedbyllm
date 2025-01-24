@@ -4,7 +4,7 @@ A memorial to the benchmarks that defined—and were defeated by—AI progress.
 
 ## About
 
-This website is meant to be a bit of fun, and to help us take a look back and remember the massive amount of progress that has been made — much of which I didn't believe I'd see within my lifetime.
+This website, available at [https://r0bk.github.io/killedbyllm/](https://r0bk.github.io/killedbyllm/), is meant to be a bit of fun, and to help us take a look back and remember the massive amount of progress that has been made — much of which I didn't believe I'd see within my lifetime.
 
 It has also been heavily inspired by Cody Ogden's [Killed by Google](https://killedbygoogle.com).
 
